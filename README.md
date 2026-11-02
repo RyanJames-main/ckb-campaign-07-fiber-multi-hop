@@ -8,6 +8,7 @@ node. Then I reversed it to restore C's receiving liquidity.
 - **Tutorial:** [Send a Multi-Hop Invoice Payment](https://www.fiber.world/docs/build/multi-hop-invoice)
 - **Version used:** Hosted live demo (browser)
 - **Network:** CKB Testnet only
+- **Date completed:** 2 November 2026
 
 ## Results
 
@@ -26,31 +27,31 @@ identity, keys and storage, and its own Testnet funding address.
 I funded each node from the CKB Testnet faucet, then opened a 499 CKB public
 channel from each node to Bottle and waited for both to reach CHANNEL_READY.
 
-![Channel opening](screenshots/06-setup-channel-opening.png)
+![Channel opening](setup-channel-opening.png)
 
 ### 3. Starting liquidity
 With both channels ready, the maximum invoice was **151 CKB**.
 
-![Starting liquidity](screenshots/05-start-liquidity-channels-ready.png)
+![Starting liquidity](start-liquidity-channels-ready.png)
 
 ### 4. Quest 1: A → Bottle B → C
 Receiver C created a 1 CKB invoice, and Sender A paid it through Bottle.
 
-![Quest 1 outcome](screenshots/01-quest1-outcome-payment-completed.png)
+![Quest 1 outcome](quest1-outcome-payment-completed.png)
 
 ### 5. Quest 2: Restore receiving liquidity (C → Bottle B → A)
 
 **Before the reverse payment:**
 
-![Before return](screenshots/02-quest2-liquidity-before-return.png)
+![Before return](quest2-liquidity-before-return.png)
 
 **Liquidity restored:**
 
-![Liquidity restored](screenshots/03-quest2-liquidity-restored-confirmation.png)
+![Liquidity restored](quest2-liquidity-restored-confirmation.png)
 
 **After the reverse payment:**
 
-![After return](screenshots/04-quest2-liquidity-after-return.png)
+![After return](quest2-liquidity-after-return.png)
 
 ## Liquidity ledger (from my screenshots)
 
