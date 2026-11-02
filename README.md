@@ -10,7 +10,6 @@ to restore C's ability to receive.
 - **Tutorial:** [Send a Multi-Hop Invoice Payment](https://www.fiber.world/docs/build/multi-hop-invoice)
 - **Version used:** Hosted live demo in the browser
 - **Network:** CKB Testnet only
-- **Date completed:** 2 November 2026
 
 ## Results
 
